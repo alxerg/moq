@@ -9,7 +9,7 @@ import (
 	"os"
 	"errors"
 
-	"github.com/matryer/moq/pkg/moq"
+	"github.com/alxerg/moq/pkg/moq"
 )
 
 func main() {

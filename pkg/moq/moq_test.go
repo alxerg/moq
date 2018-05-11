@@ -156,7 +156,7 @@ func TestImports(t *testing.T) {
 	s := buf.String()
 	var strs = []string{
 		`	"sync"`,
-		`	"github.com/matryer/moq/pkg/moq/testpackages/imports/one"`,
+		`	"github.com/alxerg/moq/pkg/moq/testpackages/imports/one"`,
 	}
 	for _, str := range strs {
 		if !strings.Contains(s, str) {
@@ -188,7 +188,7 @@ func TestVendoredPackages(t *testing.T) {
 	s := buf.String()
 	// assertions of things that should be mentioned
 	var strs = []string{
-		`"github.com/matryer/somerepo"`,
+		`"github.com/alxerg/somerepo"`,
 	}
 	for _, str := range strs {
 		if !strings.Contains(s, str) {

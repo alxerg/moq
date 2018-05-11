@@ -1,8 +1,9 @@
-![moq logo](moq-logo-small.png) [![Build Status](https://travis-ci.org/matryer/moq.svg?branch=master)](https://travis-ci.org/matryer/moq) [![Go Report Card](https://goreportcard.com/badge/github.com/matryer/moq)](https://goreportcard.com/report/github.com/matryer/moq)
+![moq logo](moq-logo-small.png) [![Build Status](https://travis-ci.org/alxerg/moq.svg?branch=master)](https://travis-ci.org/alxerg/moq) [![Go Report Card](https://goreportcard.com/badge/github.com/alxerg/moq)](https://goreportcard.com/report/github.com/alxerg/moq)
 
 Interface mocking tool for go generate.
 
-By [Mat Ryer](https://twitter.com/matryer) and [David Hernandez](https://github.com/dahernan), with ideas lovingly stolen from [Ernesto Jimenez](https://github.com/ernesto-jimenez).
+By [Mat Ryer](https://twitter.com/matryer) and [David Hernandez](https://github.com/dahernan), with ideas lovingly stolen from [Ernesto Jimenez](https://github.com/ernesto-jimenez).  
+Slightly modified by [alxerg](https://github.com/alxerg).
 
 ### What is Moq?
 
@@ -18,7 +19,7 @@ You can read more in the [Meet Moq blog post](http://bit.ly/meetmoq).
 
 To start using Moq, just run go get:
 ```
-$ go get github.com/matryer/moq
+$ go get github.com/alxerg/moq
 ```
 
 ### Usage

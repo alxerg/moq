@@ -1,6 +1,6 @@
 package user
 
-import "github.com/matryer/somerepo"
+import "github.com/alxerg/somerepo"
 
 // Service does something good with computers.
 type Service interface {
